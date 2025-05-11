@@ -17,8 +17,7 @@ This project performs **sentiment analysis** on text data using **LSTM (Long Sho
 │── 📄 sentiment_analysis.ipynb  # Jupyter Notebook with code
 │── 📄 README.md                 # Project Documentation
 │── 📄 requirements.txt          # Dependencies list
-│── 📁 data                      # Contains dataset files
-│── 📁 models                    # Saved trained models
+|-- 📄 sentiment_analysis.py     # Main file
 ```
 
 ## 🔧 Installation

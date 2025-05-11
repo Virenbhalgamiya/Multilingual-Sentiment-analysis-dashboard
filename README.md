@@ -23,8 +23,8 @@ This project performs **sentiment analysis** on text data using **LSTM (Long Sho
 ## 🔧 Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/sentiment-analysis.git
-   cd sentiment-analysis
+   git clone https://github.com/Virenbhalgamiya/Multilingual-Sentiment-analysis-dashboard.git
+   cd Multilingual-Sentiment-analysis-dashboard
    ```
 2. Create a virtual environment (optional but recommended):
    ```bash
@@ -35,6 +35,10 @@ This project performs **sentiment analysis** on text data using **LSTM (Long Sho
    ```bash
    pip install -r requirements.txt
    ```
+4. Run
+   ```bash
+   streamlit run sentiment_analysis.py
+   ```
 
 ## 📊 Models Used
 ### 1️⃣ **Naive Bayes Classifier**
@@ -42,27 +46,7 @@ This project performs **sentiment analysis** on text data using **LSTM (Long Sho
 - Trained using **Multinomial Naive Bayes** with hyperparameter tuning via GridSearchCV.
 - Evaluated using **confusion matrix and classification report**.
 
-### 2️⃣ **LSTM Neural Network**
-- Uses an **Embedding layer** to represent words as vectors.
-- LSTM layer captures **sequential dependencies** in text.
-- Dropout layer prevents overfitting.
-- Uses **sigmoid activation** in the final Dense layer for binary classification.
 
-## 🛠️ How to Run the Models
-### Run Naive Bayes Classifier:
-```python
-python naive_bayes_sentiment.py
-```
-
-### Run LSTM Model:
-```python
-python lstm_sentiment.py
-```
-
-## 📊 Results & Evaluation
-- **Naive Bayes Model Accuracy:** X% (Replace with actual accuracy)
-- **LSTM Model Accuracy:** Y% (Replace with actual accuracy)
-- Model performance is analyzed using **confusion matrix, F1-score, and accuracy**.
 
 ## 📌 Future Improvements
 - Train on a larger dataset for better generalization.
